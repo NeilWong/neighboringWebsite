@@ -36,8 +36,128 @@
 .logo {
     margin-right: 2em;
     margin-left: 5%;
-    width: 65px;
-    height: 65px;
+    width: 75px;
+    height: 75px;
     max-height: 200px;
     max-width: 200px;
 }
+/*-------------------------------*/
+/*
+.content-container {
+  display: grid;
+  grid-template-c
+  margin: 0 auto;
+  margin-top: 10%;
+  height: 300px;
+  width: 800px;
+  background-color: blue;
+  text-align: center;
+}
+*/
+.wrapper {
+		display: grid;
+    /*grid-gap: 10px;*/
+		grid-template-columns: repeat(4, [col] 150px ) ;
+		background-color: white;
+    justify-content: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 13em;
+	}
+
+	.box {
+		background-color: white;
+		color: black;
+		font-size: 100%;
+	}
+/* for grids within grids
+	.box .box {
+		background-color: light black;
+		color: black;
+	}
+*/
+	.a {
+    text-align: center;
+		grid-column: col / span 4;
+		grid-row: row;
+
+	}
+  .a div {
+    font-size: 2em;
+    text-align: center;
+    font-family: "Circular", "Helvetica", sans-serif;
+  }
+
+	.b {
+    text-align: center;
+		grid-column: col / span 4;
+		grid-row: row 2;
+	}
+  .b div {
+    font-size: 1.125em;
+    color: #FFB600;
+  }
+  .b p {
+    margin-left: .5em;
+    color: black;
+    border-bottom: solid .5px black;
+    font-size: 1em;
+  }
+
+	.c {
+    text-align: center;
+    display: inline-block;
+		grid-column: col / span 4;
+		grid-row: row 3;
+	}
+
+  .c div {
+    font-size: 1em;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    line-height: 1.375em;
+    border: .5px black solid;
+  }
+  .c .box-c--zipcode {
+    width: 20%;
+    border: .5px black solid;
+  }
+
+	.d{
+    text-align: center;
+    grid-column: col / span 4;
+    grid-row: row 4;
+	}
+  .d div {
+    text-align: left;
+    font-size: 1em;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    line-height: 1.375em;
+    border: .5px black solid;
+    width: 40%;
+  }
+  .d p {
+
+  }
+  .e {
+    grid-column: col / span 4;
+    grid-row: row 5;
+  }
+/*
+	.e {
+		grid-column: 1 / 3;
+		grid-row: 1;
+	}
+
+	.f {
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	.g {
+		grid-column: 2;
+		grid-row: 2;
+	}
+*/
