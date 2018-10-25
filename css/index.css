@@ -12,15 +12,15 @@ body {
   color: var(--main-text-color);
   background-image: url("/assets/background.jpg");
   background-repeat: no-repeat;
-  background-image
+  background-position: 0% 25%;
 }
 /*----------Top Container--------*/
 .logo {
     margin-right: 2em;
     margin-left: 5%;
     margin-top: -1em;
-    width: 68px;
-    height: 49px;
+    width: 72px;
+    height: 52px;
 }
 
 .top-wrapper {
@@ -31,20 +31,20 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 69% 31%);
   grid-auto-rows: minmax(100px, auto);
-  font-size: .9em;
+  font-size: 1em;
   font-weight: bold;
-  height: 4em;
+  height: 4.5em;
 }
 .top-wrapper--2 {
   display: grid;
   grid-template-columns: repeat(6, 15% 12% 10% 16% 10% 10%);
-  margin-top: 1.5em;
+  margin-top: 1.7em;
 }
 
 .top-wrapper--3 {
   display: grid;
   grid-template-columns: repeat(3, 35% 18% 20%);
-  margin-top: 1.5em;
+  margin-top: 1.7em;
 }
 .top-2--down {
   padding-left: .5em;
@@ -89,7 +89,7 @@ margin-left: em
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
     margin: 0 auto;
     width: 61.5vw;
-    margin-top: 10%;
+    margin-top: 14.5%;
     font-size: .95em;
     font-weight: bold;
 	}
@@ -102,7 +102,7 @@ margin-left: em
 
 	.middle-a {
     margin-top: 3em;
-    margin-bottom: .35em;
+    margin-bottom: .55em;
     text-align: center;
 		grid-column: col / span 4;
 		grid-row: row;
@@ -115,17 +115,17 @@ margin-left: em
     font-weight: bold;
   }
 
-	.b {
+	.middle-b {
     text-align: center;
 		grid-column: col / span 4;
 		grid-row: row 2;
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
 	}
-  .b div {
+  .middle-b div {
     font-size: 1em;
     color: #FFB600;
   }
-  .b p {
+  .middle-b p {
     color: black;
     border-bottom: solid .5px black;
     font-family: 'Montserrat', sans-serif;
@@ -134,7 +134,7 @@ margin-left: em
     margin-left: .5em;
   }
 
-	.c {
+	.middle-c {
     text-align: center;
     display: inline-block;
 		grid-column: col / span 6;
@@ -142,7 +142,7 @@ margin-left: em
     margin-bottom: 2em;
 	}
 
-    .c div {
+    .middle-c div {
       font-size: 1em;
       padding-top: .75em;
       padding-bottom: .75em;
@@ -151,54 +151,54 @@ margin-left: em
       border-radius: 5px;
       color: #434343;
     }
-    .c .box-c--zipcode {
+    .middle-c .box-c--zipcode {
       font-weight: normal;
       text-align: left;
       color: #8E8C8A;
       padding-left: 1em;
       width: 20%;
     }
-    .c .box-c--beds {
+    .middle-c .box-c--beds {
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px;
       margin-left: 1.5em;
-      width: 10%;
+      width: 11%;
       text-align: left;
       padding-left: .5em;
     }
-      .c .box-c--beds .beds--down {
+      .middle-c .box-c--beds .beds--down {
         float: right;
         margin-right: .5em;
       }
-    .c .box-c--baths {
+    .middle-c .box-c--baths {
       padding-left: .5em;
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
-      width: 10%;
+      width: 11%;
       text-align: left;
     }
-      .c .box-c--baths .baths--down {
+      .middle-c .box-c--baths .baths--down {
         float: right;
         margin-right: .5em;
       }
-    .c .box-c--date {
+    .middle-c .box-c--date {
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px;
       margin-left: 1.5em;
       width: 10%;
     }
-    .c .box-c--time {
+    .middle-c .box-c--time {
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
       width: 10%;
     }
 
-	.d{
+	.middle-d{
     text-align: center;
     grid-column: col / span 4;
     grid-row: row 4;
 	}
-    .d div {
+    .middle-d div {
       text-align: left;
       font-size: 1em;
       padding-top: .75em;
@@ -206,7 +206,7 @@ margin-left: em
       line-height: 1.375em;
       width: 28%;
     }
-    .d .d--email {
+    .middle-d .d--email {
       font-weight: normal;
       border: 1px #C9C9C9 solid;
       border-radius: 5px;
@@ -214,7 +214,7 @@ margin-left: em
       padding-left: 1em;
       margin-right: .5em;
     }
-    .d .d--price {
+    .middle-d .d--price {
       text-align: center;
       font-weight: bold;
       border: .5px #8CC63E solid;
@@ -223,19 +223,19 @@ margin-left: em
       color: white;
     }
 
-  .e {
+  .middle-e {
     text-align: center;
     grid-column: col / span 4;
     grid-row: row 5;
     margin-top: 2em;
     margin-bottom: 2em;
   }
-  .e div {
+  .middle-e div {
     font-size: .65em;
     font-weight: bold;
     color: #9CABB5;
   }
-  .e .hours {
+  .middle-e .hours {
     border-bottom: .5px solid;
   }
 
